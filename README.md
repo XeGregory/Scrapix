@@ -18,3 +18,18 @@ TScrapix cible les environnements VCL Windows et nécessite des fonctionnalités
 - System.Types / System.SysUtils / System.Classes / System.IOUtils (TURI, TPath, TFile, TDirectory, TStringList).
 - System.RegularExpressions (TRegEx).
 - Vcl controls (TListView/TStatusBar/TCheckListBox replacements utilisés ici : TscListView, TscStatusBar, TscCheckListBox, TscListBox — fournis par StyleControls ou à remplacer par composants VCL natifs si nécessaire).
+
+# Les composants StyleControls dans UScrapix.pas peut-être remplacé par :
+- TscButton -> TButton
+- TscEdit -> TEdit
+- TscPanel -> TPanel
+- TscListView -> TListView
+- TscSplitView ->TSplitView
+- TscScrollBox -> TScrollBox
+- TscLabel -> TTscLabel
+- TscSpinEdit -> TSpinEdit
+- TscCheckBox -> TCheckBox
+- TscCheckListBox -> TCheckListBox
+- TscListBox -> TListBox
+- TscStatusBar -> TStatusBar
+- TscExPanel -> Non remplaçable ! Composant StyleControls
